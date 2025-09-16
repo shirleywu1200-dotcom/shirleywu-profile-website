@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shirley【大梅老師】- 企業變革管理與數位轉型專家</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        body { 
+            font-family: 'Noto Sans TC', sans-serif; 
+            scroll-behavior: smooth;
+        }
+        .gradient-bg { 
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 30%, #f8bbd9 70%, #fce7f3 100%); 
+        }
+        .gradient-pink-blue { 
+            background: linear-gradient(135deg, #fef7ff 0%, #fce7f3 30%, #dbeafe 70%, #f0f9ff 100%); 
+        }
+        .card-hover { 
+            transition: all 0.3s ease; 
+        }
+        .card-hover:hover { 
+            transform: translateY(-8px); 
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15); 
+        }
+        .number-highlight { 
+            font-size: 3rem; 
+            font-weight: 700; 
+            background: linear-gradient(135deg, #1e40af, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .section-divider { 
+            background: linear-gradient(90deg, transparent, #ec4899, #1e40af, transparent); 
+            height: 3px; 
+        }
+        .service-card-1 { background: linear-gradient(135deg, #f8bbd9, #fce7f3); }
+        .service-card-2 { background: linear-gradient(135deg, #1e40af, #3b82f6); }
+        .service-card-3 { background: linear-gradient(135deg, #f472b6, #ec4899); }
+        .service-card-4 { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+        .service-card-5 { background: linear-gradient(135deg, #fbb6ce, #f9a8d4); }
+        .service-card-6 { background: linear-gradient(135deg, #1e3a8a, #1e40af); }
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-24 relative overflow-hidden">
+    <div class="absolute inset-0 bg-black opacity-10"></div>
+    <div class="container mx-auto px-6 text-center relative z-10">
+        <div class="w-36 h-36 mx-auto bg-white rounded-full overflow-hidden mb-8 floating-animation shadow-2xl">
+             <img src="https://github.com/user-attachments/assets/3841a404-5fdc-4b5f-b563-bf633d89f835" alt="吳梅芬 Shirley Wu" class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-5xl font-bold mb-6 leading-tight"> Shirley 大梅老師</h1>
+        <div class="bg-white bg-opacity-20 rounded-full px-8 py-3 inline-block mb-4">
+            <p class="text-xl font-semibold">企業變革管理與數位轉型專家</p>
+        </div>
+        <h2 class="text-3xl font-bold mb-8 leading-tight">引領轉型，數據驅動</h2>
+       <div class="text-lg md:text-xl mb-12 max-w-4xl mx-auto">
+    <div class="space-y-2 leading-relaxed">
+        <p class="text-center">企業變革管理與數位轉型專家</p>
+        <p class="text-center">提供陪伴型顧問服務</p>
+        <p class="text-center">助您實現組織變革與策略落地</p>
+        <p class="text-center">引領企業打造韌性體質</p>
+    </div>
+</div>
+
+        <div class="flex flex-wrap justify-center gap-6">
+            <a href="#services" class="bg-white text-pink-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-pink-50 transition duration-300 shadow-lg pulse-animation">
+                <i class="fas fa-rocket mr-2"></i>了解我的服務
+            </a>
+            <a href="#contact" class="border-3 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-pink-600 transition duration-300">
+                <i class="fas fa-envelope mr-2"></i>聯絡我
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+               <div class="text-center mb-6">
+    <h2 class="text-3xl md:text-5xl font-bold text-gray-800 leading-tight">
+        <span class="block">您的轉型夥伴</span>
+        <span class="block text-xl md:text-2xl text-gray-600 font-normal my-2">──</span>
+        <span class="block text-2xl md:text-4xl text-pink-500">變革引領教練</span>
+    </h2>
+</div>
+                <div class="section-divider w-32 mx-auto mb-10"></div>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-xl text-gray-600 leading-relaxed mb-8">
+                        作為企業變革管理與數位轉型專家，我致力於提供「陪伴型顧問」的獨特價值，
+                        協助企業以數據驅動決策，實現策略與管理的全面升級。
+                    </p>
+                    <div class="bg-gradient-to-r from-pink-100 to-blue-100 p-8 rounded-2xl">
+                        <p class="text-2xl font-bold text-gray-800 italic">
+                            "我相信，數據是企業未來的原力，而變革是通往永續經營的必經之路。"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
+                <div class="text-center p-6 bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl card-hover">
+                    <div class="number-highlight">15+</div>
+                    <p class="text-gray-700 font-bold text-lg">年 ERP導入經驗</p>
+                    <p class="text-gray-500 text-sm mt-2">大型資訊系統專案管理</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl card-hover">
+                    <div class="number-highlight">10+</div>
+                    <p class="text-gray-700 font-bold text-lg">年 智慧製造經驗</p>
+                    <p class="text-gray-500 text-sm mt-2">數據倉儲規劃與實施</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-pink-50 to-blue-50 rounded-2xl card-hover">
+                    <div class="number-highlight">100+</div>
+                    <p class="text-gray-700 font-bold text-lg">家 輔導企業</p>
+                    <p class="text-gray-500 text-sm mt-2">跨領域轉型經驗</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-blue-50 to-pink-50 rounded-2xl card-hover">
+                    <div class="number-highlight">30+</div>
+                    <p class="text-gray-700 font-bold text-lg">家 IPO上市櫃</p>
+                    <p class="text-gray-500 text-sm mt-2">成功建立制度</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+   <section id="services" class="py-24 gradient-pink-blue">
+      <div class="container mx-auto px-6">
+          <div class="text-center mb-20">
+              <h2 class="text-5xl font-bold text-gray-800 mb-6">陪伴式顧問服務 定制化轉型方案</h2>
+              <div class="section-divider w-32 mx-auto mb-10"></div>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- 第一個：數位轉型診斷與規劃 -->
+              <div class="service-card-1 text-gray-800 p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-search-plus text-3xl text-pink-500"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">轉型診斷與數位優化</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      分析企業數位應用現況，優化現行的ERP、MES運營系統，
+                      為企業打造強韌轉型基礎。
+                  </p>
+              </div>
+
+              <!-- 第二個：企業變革管理專案 -->
+              <div class="service-card-2 text-white p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-cogs text-3xl text-blue-600"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">企業變革管理專案</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      從組織體質診斷到流程再造，打造強健且彈性的管理系統，
+                      協助企業建立持續改善的文化。
+                  </p>
+              </div>
+
+              <!-- 第三個：傳承接班與人才資本 -->
+              <div class="service-card-5 text-gray-800 p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-users text-3xl text-pink-500"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">傳承接班與人才資本</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      協助二代接班，導入數位力學程與績效評估系統，
+                      建立人才梯隊，累積企業數位人才資本。
+                  </p>
+              </div>
+
+              <!-- 第四個：智慧製造與產銷優化 -->
+              <div class="service-card-4 text-white p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-industry text-3xl text-blue-200"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">智慧製造與產銷優化</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      整合ERP+MES+IOT應用，提升準時開工率與訂單完工率，
+                      實現低成本智慧製造。
+                  </p>
+              </div>
+
+              <!-- 第五個：數據治理與策略決策 -->
+              <div class="service-card-3 text-white p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-chart-line text-3xl text-pink-100"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">數據治理與策略決策</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      導入BI商業戰情與數據倉儲，引領企業以數據驅動管理，
+                      建立科學化決策機制。
+                  </p>
+              </div>
+
+              <!-- 第六個：經營成本與預算管理 -->
+              <div class="service-card-6 text-white p-8 rounded-3xl card-hover shadow-2xl">
+                  <div class="text-center mb-6">
+                      <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                          <i class="fas fa-calculator text-3xl text-blue-200"></i>
+                      </div>
+                      <h3 class="text-2xl font-bold mb-3">經營成本與預算管理</h3>
+                  </div>
+                  <p class="leading-relaxed text-center">
+                      建立精準成本分析體系，導入預算控制機制與KPI監控系統，
+                      優化資源配置，提升獲利能力與財務透明度。
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Success Cases -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-5xl font-bold text-gray-800 mb-6">轉型成果，數據見證</h2>
+                <div class="section-divider w-32 mx-auto mb-10"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- Case Study -->
+                <div class="bg-gradient-to-br from-pink-50 to-blue-50 p-12 rounded-3xl shadow-2xl card-hover">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-8 text-center">製造業轉型成功案例</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+                        <div class="text-center p-6 bg-white rounded-2xl shadow-lg">
+                            <div class="text-5xl font-bold text-pink-500 mb-3">11%</div>
+                            <p class="text-gray-700 font-semibold text-lg">庫存金額降低</p>
+                        </div>
+                        <div class="text-center p-6 bg-white rounded-2xl shadow-lg">
+                            <div class="text-5xl font-bold text-blue-600 mb-3">40%</div>
+                            <p class="text-gray-700 font-semibold text-lg">準時開工率提升</p>
+                        </div>
+                        <div class="text-center p-6 bg-white rounded-2xl shadow-lg">
+                            <div class="text-5xl font-bold text-pink-600 mb-3">20%</div>
+                            <p class="text-gray-700 font-semibold text-lg">訂單準時完工率提升</p>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-pink-500 to-blue-600 text-white p-10 rounded-2xl text-center">
+                        <div class="text-7xl font-bold mb-4">300%</div>
+                        <p class="text-2xl font-semibold mb-2">第一季轉型後淨利成長</p>
+                        <p class="text-lg opacity-90">5年挑戰營收一億美金大關</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 gradient-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-15"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-5xl font-bold mb-6">讓我們一起開啟轉型之旅</h2>
+            <div class="section-divider w-32 mx-auto mb-12 bg-white"></div>
+            <p class="text-xl mb-16 max-w-3xl mx-auto leading-relaxed">
+                準備好迎接數位轉型的挑戰了嗎？讓我陪伴您的企業走向成功，
+                用數據驅動決策，實現永續經營目標。
+            </p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="mailto:info@digiforce-rj.com" class="bg-white text-pink-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-pink-50 transition duration-300 inline-flex items-center shadow-2xl">
+                    <i class="fas fa-envelope mr-3"></i>
+                    Email 聯絡
+                </a>
+                <a href="https://www.facebook.com/wu.da.mei.275446/" target="_blank" class="bg-pink-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-pink-600 transition duration-300 inline-flex items-center shadow-2xl">
+                    <i class="fab fa-facebook-f mr-3"></i>
+                    Facebook
+                </a>
+                <a href="https://www.linkedin.com/in/shirleywu1200/" target="_blank" class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition duration-300 inline-flex items-center shadow-2xl">
+                    <i class="fab fa-linkedin-in mr-3"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">© 2024 吳梅芬 Shirley Wu - 數據原力顧問公司</p>
+            <p class="text-gray-400">睿婕引領 數據先行 | 永續轉型 數位優化</p>
+        </div>
+    </footer>
+
+</body>
+</html>
